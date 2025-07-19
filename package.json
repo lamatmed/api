@@ -6,8 +6,8 @@
     "seed": "tsx prisma/seed.ts"
   },
   "scripts": {
-    "dev": "tsx watch api/index.ts",
-    "start": "node api/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "start": "node ./src/index.ts",
     "vercel:dev": "npm run build && vercel dev",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",

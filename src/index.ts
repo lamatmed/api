@@ -1,3 +1,4 @@
+/* eslint-disable style/member-delimiter-style */
 import { serve } from "@hono/node-server";
 
 import app from "./app";

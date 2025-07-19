@@ -1,6 +1,6 @@
 /* eslint-disable perfectionist/sort-imports */
 import { handle } from "hono/vercel";
-import app from "../app";
+import app from "../src/app";
 
 export const runtime = "nodejs";
 

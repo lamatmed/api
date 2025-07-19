@@ -1,7 +1,7 @@
 /* eslint-disable perfectionist/sort-imports */
 /* eslint-disable style/eol-last */
 /* eslint-disable style/semi */
-import app from "../src/app";
+import app from "./app";
 import { handle } from "hono/vercel";
 
 export const runtime = "edge";

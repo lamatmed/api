@@ -6,12 +6,12 @@
     "seed": "tsx prisma/seed.ts"
   },
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "start": "node /src/index.ts",
+    "dev": "tsx watch api/index.ts",
+    "start": "node api/index.ts",
     "vercel:dev": "npm run build && vercel dev",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "build": "rimraf dist && prisma generate && tsc && tsc-alias",
+    "build": "rm -rf dist && prisma generate && tsc && tsc-alias",
     "postinstall": "prisma generate"
   },
   "dependencies": {
@@ -40,7 +40,6 @@
     "@types/node": "^20.11.17",
     "eslint": "^9.24.0",
     "eslint-plugin-format": "^1.0.1",
-    "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.16",
     "typescript": "^5.8.3",

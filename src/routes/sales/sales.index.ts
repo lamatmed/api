@@ -1,3 +1,5 @@
+/* eslint-disable style/eol-last */
+/* eslint-disable perfectionist/sort-imports */
 import { createRouter } from "@/lib/create-app";
 import * as handlers from "./sales.handlers";
 import * as routes from "./sales.routes";
@@ -9,4 +11,4 @@ const router = createRouter()
   .openapi(routes.update, handlers.update)
   .openapi(routes.remove, handlers.remove);
 
-export default router; 
+export default router;

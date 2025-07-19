@@ -1,3 +1,7 @@
+/* eslint-disable import/newline-after-import */
+/* eslint-disable style/semi */
+/* eslint-disable style/max-statements-per-line */
+/* eslint-disable perfectionist/sort-imports */
 import configureOpenAPI from "@/lib/configure-open-api";
 import createApp from "@/lib/create-app";
 

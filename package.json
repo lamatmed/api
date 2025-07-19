@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "start": "node ./dist/src/index.js",
+    "start": "node /src/index.ts",
     "vercel:dev": "npm run build && vercel dev",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",

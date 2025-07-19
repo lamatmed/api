@@ -5,7 +5,7 @@ import { handle } from "hono/vercel";
 /* eslint-disable antfu/no-import-dist */
 // eslint-disable-next-line ts/ban-ts-comment
 // @ts-expect-error
-import app from "../dist/src/app.ts";
+import app from "../dist/src/app";
 
 export const runtime = "edge";
 

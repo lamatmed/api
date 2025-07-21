@@ -4,7 +4,7 @@
 /* eslint-disable antfu/no-import-dist */
 /* eslint-disable perfectionist/sort-imports */
 // eslint-disable-next-line ts/ban-ts-comment
-
+// @ts-expect-error
 
 import { handle } from "hono/vercel";
 import app from "../dist/src/app.js";

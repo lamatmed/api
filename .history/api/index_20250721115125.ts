@@ -1,11 +1,7 @@
-/* eslint-disable style/no-multiple-empty-lines */
-/* eslint-disable style/semi */
-/* eslint-disable style/eol-last */
-/* eslint-disable antfu/no-import-dist */
 /* eslint-disable perfectionist/sort-imports */
 // eslint-disable-next-line ts/ban-ts-comment
 // @ts-expect-error
-
+// eslint-disable-next-line antfu/no-import-dist
 
 import app from "../dist/src/app.js";
 import { handle } from "hono/vercel";

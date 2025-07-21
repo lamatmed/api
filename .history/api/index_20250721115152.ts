@@ -1,4 +1,3 @@
-/* eslint-disable style/no-multiple-empty-lines */
 /* eslint-disable style/semi */
 /* eslint-disable style/eol-last */
 /* eslint-disable antfu/no-import-dist */

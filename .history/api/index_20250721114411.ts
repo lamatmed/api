@@ -1,13 +1,8 @@
-/* eslint-disable style/no-multiple-empty-lines */
-/* eslint-disable style/semi */
-/* eslint-disable style/eol-last */
 /* eslint-disable antfu/no-import-dist */
 /* eslint-disable perfectionist/sort-imports */
-// eslint-disable-next-line ts/ban-ts-comment
-// @ts-expect-error
-
-
-import app from "../dist/src/app.js";
+/* eslint-disable style/eol-last */
+/* eslint-disable style/semi */
+import app from "";
 import { handle } from "hono/vercel";
 
 export const runtime = "edge";

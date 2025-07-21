@@ -20,5 +20,10 @@
   },
   "tsc-alias": {
     "resolveFullPaths": true
-  }
+  },
+  "include": [
+    "src",
+    "api",
+    "api/declarations.d.ts"
+  ]
 }

@@ -1,4 +1,3 @@
-/* eslint-disable style/semi */
 /* eslint-disable style/eol-last */
 import { handle } from "hono/vercel";
 
